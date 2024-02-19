@@ -1,0 +1,47 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.menu-section {
+  display: none;
+  padding: 10px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.item-name {
+  font-weight: bold;
+  margin-bottom: 5px; /* Espacio entre el título y la descripción */
+}
+
+.item-description {
+  font-size: smaller;
+	width: 90%;
+}
+
+.item-price {
+  align-self: flex-end;
+	margin-top: -20px; /* Ajusta este valor según sea necesario para alinear con el título */
+}
