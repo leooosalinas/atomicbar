@@ -64,7 +64,7 @@ color: black !important;
 
 .item-description {
   font-size: smaller;
-  opacity: .8;
+  color: #ccc;
 	width: 90%;
 }
 
