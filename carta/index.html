@@ -13,132 +13,146 @@
   </head>
 
   <body>
-    <div class="container">
-      <h2 class="section-title" onclick="toggleSection('cocktails', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">−</span> COCKTAILS
-  </h2>
-  <div class="menu-section" id="cocktails">
-    <div class="menu-item">
-      <span class="item-name">Aurora Boreal</span>
-      <span class="item-description">Una mezcla refrescante de ginebra, tónica y lima, adornada con una rodaja de pepino.</span>
-      <span class="item-price">€9</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Sueño Tropical</span>
-      <span class="item-description">Ron oscuro con jugo de piña fresca y coco, servido en un vaso escarchado con azúcar.</span>
-      <span class="item-price">€8</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Solsticio de Verano</span>
-      <span class="item-description">Tequila, jarabe de agave y jugo fresco de limón con un toque de salvia.</span>
-      <span class="item-price">€10</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Beso del Ángel</span>
-      <span class="item-description">Vodka infusionado con frutos rojos, vermut y un toque de jugo de limón, decorado con pétalos de rosa.</span>
-      <span class="item-price">€12</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Eclipse Nocturno</span>
-      <span class="item-description">Whisky de centeno, amaro y licor de cereza, servido con una esfera de hielo ahumado.</span>
-      <span class="item-price">€11</span>
-    </div>
-  </div>
-      <h2 class="section-title" onclick="toggleSection('parapicar', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">−</span> PARA PICAR
-  </h2>
-  <div class="menu-section" id="parapicar">
-    <div class="menu-item">
-      <span class="item-name">Bravas del Chef</span>
-      <span class="item-description">Patatas bravas con un giro, sazonadas con especias exóticas y acompañadas de una salsa secreta.</span>
-      <span class="item-price">€5</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Tabla de Quesos</span>
-      <span class="item-description">Una selección de quesos artesanales locales e internacionales, con nueces y mermelada de temporada.</span>
-      <span class="item-price">€12</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Nachos Supremos</span>
-      <span class="item-description">Nachos crujientes cubiertos con queso fundido, jalapeños, guacamole y un toque de crema agria.</span>
-      <span class="item-price">€7</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Brochetas de Camarón</span>
-      <span class="item-description">Camarones a la parrilla marinados en una salsa cítrica, servidos sobre una cama de arúgula fresca.</span>
-      <span class="item-price">€9</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Alitas Barbacoa</span>
-      <span class="item-description">Alitas de pollo bañadas en salsa barbacoa casera, con un glaseado final al grill para una textura perfecta.</span>
-      <span class="item-price">€8</span>
-    </div>
-  </div>
-
-  <h2 class="section-title" onclick="toggleSection('paracomer', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">−</span> PARA COMER
-  </h2>
-  <div class="menu-section" id="paracomer">
-    <div class="menu-item">
-      <span class="item-name">Hamburguesa Deluxe</span>
-      <span class="item-description">Carne de res premium, queso cheddar añejo, bacon crujiente y nuestra salsa especial en un pan brioche tostado.</span>
-      <span class="item-price">€15</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Ensalada César</span>
-      <span class="item-description">Corazones de lechuga romana, crutones caseros, parmesano reggiano y nuestro aderezo César clásico.</span>
-      <span class="item-price">€10</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Pizza Margarita</span>
-      <span class="item-description">Masa fina y crujiente con tomate, mozzarella fresca, albahaca y un toque de aceite de oliva virgen extra.</span>
-      <span class="item-price">€12</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Risotto de Setas</span>
-      <span class="item-description">Arroz arborio cremoso con una selección de setas silvestres, acabado con un toque de trufa blanca.</span>
-      <span class="item-price">€14</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name">Tacos de Pescado</span>
-      <span class="item-description">Filetes de pescado ligeros y sabrosos, servidos en tortillas de maíz con repollo y un aderezo de chipotle.</span>
-      <span class="item-price">€13</span>
-    </div>
-  </div>
-      <h2 class="section-title" onclick="toggleSection('bebidas', this.querySelector('.toggle-symbol'))">
-  <span class="toggle-symbol">−</span> BEBIDAS
-</h2>
-<div class="menu-section" id="bebidas">
-  <div class="menu-item">
-    <span class="item-name">Agua Mineral</span>
-    <span class="item-description">Agua mineral natural, refrescante y purificada.</span>
-    <span class="item-price">€1</span>
-  </div>
-  <div class="menu-item">
-    <span class="item-name">Gaseosa</span>
-    <span class="item-description">Clásica bebida carbonatada con sabor a cola.</span>
-    <span class="item-price">€2</span>
-  </div>
-  <div class="menu-item">
-    <span class="item-name">Jugo de Naranja Natural</span>
-    <span class="item-description">Exprimido fresco, lleno de vitaminas y sabor cítrico.</span>
-    <span class="item-price">€2.50</span>
-  </div>
-  <div class="menu-item">
-    <span class="item-name">Cerveza Artesanal</span>
-    <span class="item-description">Selección local de cerveza rubia, toques maltosos y amargor equilibrado.</span>
-    <span class="item-price">€3</span>
-  </div>
-  <div class="menu-item">
-    <span class="item-name">Café Americano</span>
-    <span class="item-description">Café recién molido y preparado al momento.</span>
-    <span class="item-price">€1.50</span>
-  </div>
+      <!-- Selector de idioma -->
+<!-- Botones de idioma -->
+<div id="language-selector">
+    <div class="botones-idioma">
+  <button id="btn-ca" onclick="setLanguage('ca')">Català</button>
+        <button id="btn-es" onclick="setLanguage('es')">Español</button>
+  <button id="btn-en" onclick="setLanguage('en')">English</button>
+        </div>
 </div>
 
-      <!-- Repite para las demás secciones (Para Picar, Para Comer, Bebidas) -->
-
+    <div class="container">
+      <h2 class="section-title" onclick="toggleSection('acordeon01', this.querySelector('.toggle-symbol'))">
+    <span class="toggle-symbol">-</span> <span data-translate="seccion_01">SECCIÓN</span>
+  </h2>
+  <div class="menu-section" id="acordeon01">
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_01">Producto</span>
+      <span class="item-description" data-translate="descripcion_01">Descripción</span>
+      <span class="item-price" data-price="producto_01">€0</span>
     </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_02">Producto</span>
+      <span class="item-description" data-translate="descripcion_02">Descripción</span>
+      <span class="item-price" data-price="producto_02">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_03">Producto</span>
+      <span class="item-description" data-translate="descripcion_03">Descripción</span>
+      <span class="item-price" data-price="producto_03">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_04">Producto</span>
+      <span class="item-description" data-translate="descripcion_04">Descripción</span>
+      <span class="item-price" data-price="producto_04">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_05">Producto</span>
+      <span class="item-description" data-translate="descripcion_05">Descripción</span>
+      <span class="item-price" data-price="producto_05">€0</span>
+    </div>
+  </div>
+      <h2 class="section-title" onclick="toggleSection('acordeon02', this.querySelector('.toggle-symbol'))">
+    <span class="toggle-symbol">-</span> <span data-translate="seccion_02">SECCIÓN</span>
+  </h2>
+  <div class="menu-section" id="acordeon02">
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_06">Producto</span>
+      <span class="item-description" data-translate="descripcion_06">Descripción</span>
+      <span class="item-price" data-price="producto_06">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_07">Producto</span>
+      <span class="item-description" data-translate="descripcion_07">Descripción</span>
+      <span class="item-price" data-price="producto_07">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_08">Producto</span>
+      <span class="item-description" data-translate="descripcion_08">Descripción</span>
+      <span class="item-price" data-price="producto_08">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_09">Producto</span>
+      <span class="item-description" data-translate="descripcion_09">Descripción</span>
+      <span class="item-price" data-price="producto_09">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_10">Producto</span>
+      <span class="item-description" data-translate="descripcion_10">Descripción</span>
+      <span class="item-price" data-price="producto_10">€0</span>
+    </div>
+  </div>
+
+  
+      <h2 class="section-title" onclick="toggleSection('acordeon03', this.querySelector('.toggle-symbol'))">
+    <span class="toggle-symbol">-</span> <span data-translate="seccion_03">SECCIÓN</span>
+  </h2>
+  <div class="menu-section" id="acordeon03">
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_11">Producto</span>
+      <span class="item-description" data-translate="descripcion_11">Descripción</span>
+      <span class="item-price" data-price="producto_11">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_12">Producto</span>
+      <span class="item-description" data-translate="descripcion_12">Descripción</span>
+      <span class="item-price" data-price="producto_12">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_13">Producto</span>
+      <span class="item-description" data-translate="descripcion_13">Descripción</span>
+      <span class="item-price" data-price="producto_13">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_14">Producto</span>
+      <span class="item-description" data-translate="descripcion_14">Descripción</span>
+      <span class="item-price" data-price="producto_14">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_15">Producto</span>
+      <span class="item-description" data-translate="descripcion_15">Descripción</span>
+      <span class="item-price" data-price="producto_15">€0</span>
+    </div>
+  </div>
+      <h2 class="section-title" onclick="toggleSection('acordeon04', this.querySelector('.toggle-symbol'))">
+    <span class="toggle-symbol">-</span> <span data-translate="seccion_04">SECCIÓN</span>
+  </h2>
+  <div class="menu-section" id="acordeon04">
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_16">Producto</span>
+      <span class="item-description" data-translate="descripcion_16">Descripción</span>
+      <span class="item-price" data-price="producto_16">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_17">Producto</span>
+      <span class="item-description" data-translate="descripcion_17">Descripción</span>
+      <span class="item-price" data-price="producto_17">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_18">Producto</span>
+      <span class="item-description" data-translate="descripcion_18">Descripción</span>
+      <span class="item-price" data-price="producto_18">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_19">Producto</span>
+      <span class="item-description" data-translate="descripcion_19">Descripción</span>
+      <span class="item-price" data-price="producto_19">€0</span>
+    </div>
+    <div class="menu-item">
+      <span class="item-name" data-translate="producto_20">Producto</span>
+      <span class="item-description" data-translate="descripcion_20">Descripción</span>
+      <span class="item-price" data-price="producto_20">€0</span>
+    </div>
+  </div>
+
+      <!-- Repite para las demás secciones (Para Picar, Para Comer, Bebidas) -->
+        <div class="logo-container" id="logoContainer">
+        <img src="../logo-atomic-bar.png" alt="Logo Atòmic Bar">
+    </div>
+    </div>
+      <script src="translations.js"></script>
     <script src="script.js"></script>
   </body>
 

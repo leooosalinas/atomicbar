@@ -5,12 +5,38 @@ body {
   margin: 0;
   padding: 0;
 }
+#language-selector {
+  position: fixed;
+  z-index: 1000;
+    width: 100%;
+    padding: 20px;
+    background: #222;
+}
 
+#language-selector button {
+padding: 5px 10px;
+margin: 0 5px;
+font-size: 16px;
+border: 1px solid white;
+background-color: black;
+color: white;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+#language-selector button:hover {
+background-color: #f2f2f2;
+}
+
+.button-active {
+background-color: white !important; /* O el color que prefieras para el botón activo */
+color: black !important;
+}
 .container {
   width: 90%;
   max-width: 600px;
   margin: auto;
-  padding: 20px;
+  padding: 70px 20px 20px 20px;
 }
 
 .section-title {
@@ -43,5 +69,26 @@ body {
 
 .item-price {
   align-self: flex-end;
-	margin-top: -20px; /* Ajusta este valor según sea necesario para alinear con el título */
+	margin-top: -20px; /* Ajusta para alinear con el título */
 }
+
+.logo-container {
+            width: 50vw;
+            max-width: 200px; /* Ancho del logotipo como un porcentaje del ancho del viewport */
+            height: auto; /* Altura automática para mantener la proporción */
+        }
+
+        .logo-container img {
+            width: 100%;
+  height: auto;
+        }
+
+        @keyframes rotateLogoRight {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes rotateLogoLeft {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(-360deg); }
+        }
