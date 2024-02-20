@@ -7,7 +7,6 @@ body {
 }
 #language-selector {
   position: fixed;
-  right: 0;
   z-index: 1000;
     width: 100%;
     padding: 20px;
@@ -65,6 +64,7 @@ color: black !important;
 
 .item-description {
   font-size: smaller;
+  opacity: .8;
 	width: 90%;
 }
 
