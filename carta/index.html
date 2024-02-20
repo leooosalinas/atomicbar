@@ -1,159 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atòmic Bar | Carrer de Puigmartí 40 - Gràcia, BCN</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-	 <link rel="icon" type="image/x-icon" href="../logo-atomic-bar.png">
+    <link rel="icon" type="image/x-icon" href="../logo-atomic-bar.png">
     <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 
-  <body>
-      <!-- Selector de idioma -->
-<!-- Botones de idioma -->
-<div id="language-selector">
-    <div class="botones-idioma">
-  <button id="btn-ca" onclick="setLanguage('ca')">Català</button>
-        <button id="btn-es" onclick="setLanguage('es')">Español</button>
-  <button id="btn-en" onclick="setLanguage('en')">English</button>
+<body>
+    <!-- Selector de idioma -->
+    <div id="language-selector">
+        <div class="botones-idioma">
+            <button id="btn-ca" onclick="setLanguage('ca')">Català</button>
+            <button id="btn-es" onclick="setLanguage('es')">Español</button>
+            <button id="btn-en" onclick="setLanguage('en')">English</button>
         </div>
-</div>
-
+    </div>
+    <!-- Carta Atòmica -->
     <div class="container">
-      <h2 class="section-title" onclick="toggleSection('acordeon01', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">-</span> <span data-translate="seccion_01">SECCIÓN</span>
-  </h2>
-  <div class="menu-section" id="acordeon01">
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_01">Producto</span>
-      <span class="item-description" data-translate="descripcion_01">Descripción</span>
-      <span class="item-price" data-price="producto_01">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_02">Producto</span>
-      <span class="item-description" data-translate="descripcion_02">Descripción</span>
-      <span class="item-price" data-price="producto_02">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_03">Producto</span>
-      <span class="item-description" data-translate="descripcion_03">Descripción</span>
-      <span class="item-price" data-price="producto_03">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_04">Producto</span>
-      <span class="item-description" data-translate="descripcion_04">Descripción</span>
-      <span class="item-price" data-price="producto_04">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_05">Producto</span>
-      <span class="item-description" data-translate="descripcion_05">Descripción</span>
-      <span class="item-price" data-price="producto_05">€0</span>
-    </div>
-  </div>
-      <h2 class="section-title" onclick="toggleSection('acordeon02', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">-</span> <span data-translate="seccion_02">SECCIÓN</span>
-  </h2>
-  <div class="menu-section" id="acordeon02">
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_06">Producto</span>
-      <span class="item-description" data-translate="descripcion_06">Descripción</span>
-      <span class="item-price" data-price="producto_06">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_07">Producto</span>
-      <span class="item-description" data-translate="descripcion_07">Descripción</span>
-      <span class="item-price" data-price="producto_07">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_08">Producto</span>
-      <span class="item-description" data-translate="descripcion_08">Descripción</span>
-      <span class="item-price" data-price="producto_08">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_09">Producto</span>
-      <span class="item-description" data-translate="descripcion_09">Descripción</span>
-      <span class="item-price" data-price="producto_09">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_10">Producto</span>
-      <span class="item-description" data-translate="descripcion_10">Descripción</span>
-      <span class="item-price" data-price="producto_10">€0</span>
-    </div>
-  </div>
+        
+        <!-- COCKTAILS -->
+        <h2 class="section-title" onclick="toggleSection('acordeon01', this.querySelector('.toggle-symbol'))">
+            <span class="toggle-symbol">-</span> <span data-translate="seccion_01">SECCIÓN</span>
+        </h2>
+        <div class="menu-section" id="acordeon01">
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_01">Producto</span>
+                <span class="item-description" data-translate="descripcion_01">Descripción</span>
+                <span class="item-price" data-price="producto_01">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_02">Producto</span>
+                <span class="item-description" data-translate="descripcion_02">Descripción</span>
+                <span class="item-price" data-price="producto_02">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_03">Producto</span>
+                <span class="item-description" data-translate="descripcion_03">Descripción</span>
+                <span class="item-price" data-price="producto_03">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_04">Producto</span>
+                <span class="item-description" data-translate="descripcion_04">Descripción</span>
+                <span class="item-price" data-price="producto_04">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_05">Producto</span>
+                <span class="item-description" data-translate="descripcion_05">Descripción</span>
+                <span class="item-price" data-price="producto_05">€0</span>
+            </div>
+        </div>
+        
+        <!-- TAPAS -->
+        <h2 class="section-title" onclick="toggleSection('acordeon02', this.querySelector('.toggle-symbol'))">
+            <span class="toggle-symbol">-</span> <span data-translate="seccion_02">SECCIÓN</span>
+        </h2>
+        <div class="menu-section" id="acordeon02">
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_06">Producto</span>
+                <span class="item-description" data-translate="descripcion_06">Descripción</span>
+                <span class="item-price" data-price="producto_06">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_07">Producto</span>
+                <span class="item-description" data-translate="descripcion_07">Descripción</span>
+                <span class="item-price" data-price="producto_07">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_08">Producto</span>
+                <span class="item-description" data-translate="descripcion_08">Descripción</span>
+                <span class="item-price" data-price="producto_08">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_09">Producto</span>
+                <span class="item-description" data-translate="descripcion_09">Descripción</span>
+                <span class="item-price" data-price="producto_09">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_10">Producto</span>
+                <span class="item-description" data-translate="descripcion_10">Descripción</span>
+                <span class="item-price" data-price="producto_10">€0</span>
+            </div>
+        </div>
 
-  
-      <h2 class="section-title" onclick="toggleSection('acordeon03', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">-</span> <span data-translate="seccion_03">SECCIÓN</span>
-  </h2>
-  <div class="menu-section" id="acordeon03">
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_11">Producto</span>
-      <span class="item-description" data-translate="descripcion_11">Descripción</span>
-      <span class="item-price" data-price="producto_11">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_12">Producto</span>
-      <span class="item-description" data-translate="descripcion_12">Descripción</span>
-      <span class="item-price" data-price="producto_12">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_13">Producto</span>
-      <span class="item-description" data-translate="descripcion_13">Descripción</span>
-      <span class="item-price" data-price="producto_13">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_14">Producto</span>
-      <span class="item-description" data-translate="descripcion_14">Descripción</span>
-      <span class="item-price" data-price="producto_14">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_15">Producto</span>
-      <span class="item-description" data-translate="descripcion_15">Descripción</span>
-      <span class="item-price" data-price="producto_15">€0</span>
-    </div>
-  </div>
-      <h2 class="section-title" onclick="toggleSection('acordeon04', this.querySelector('.toggle-symbol'))">
-    <span class="toggle-symbol">-</span> <span data-translate="seccion_04">SECCIÓN</span>
-  </h2>
-  <div class="menu-section" id="acordeon04">
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_16">Producto</span>
-      <span class="item-description" data-translate="descripcion_16">Descripción</span>
-      <span class="item-price" data-price="producto_16">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_17">Producto</span>
-      <span class="item-description" data-translate="descripcion_17">Descripción</span>
-      <span class="item-price" data-price="producto_17">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_18">Producto</span>
-      <span class="item-description" data-translate="descripcion_18">Descripción</span>
-      <span class="item-price" data-price="producto_18">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_19">Producto</span>
-      <span class="item-description" data-translate="descripcion_19">Descripción</span>
-      <span class="item-price" data-price="producto_19">€0</span>
-    </div>
-    <div class="menu-item">
-      <span class="item-name" data-translate="producto_20">Producto</span>
-      <span class="item-description" data-translate="descripcion_20">Descripción</span>
-      <span class="item-price" data-price="producto_20">€0</span>
-    </div>
-  </div>
+        <!-- PARA COMER -->
+        <h2 class="section-title" onclick="toggleSection('acordeon03', this.querySelector('.toggle-symbol'))">
+            <span class="toggle-symbol">-</span> <span data-translate="seccion_03">SECCIÓN</span>
+        </h2>
+        <div class="menu-section" id="acordeon03">
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_11">Producto</span>
+                <span class="item-description" data-translate="descripcion_11">Descripción</span>
+                <span class="item-price" data-price="producto_11">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_12">Producto</span>
+                <span class="item-description" data-translate="descripcion_12">Descripción</span>
+                <span class="item-price" data-price="producto_12">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_13">Producto</span>
+                <span class="item-description" data-translate="descripcion_13">Descripción</span>
+                <span class="item-price" data-price="producto_13">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_14">Producto</span>
+                <span class="item-description" data-translate="descripcion_14">Descripción</span>
+                <span class="item-price" data-price="producto_14">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_15">Producto</span>
+                <span class="item-description" data-translate="descripcion_15">Descripción</span>
+                <span class="item-price" data-price="producto_15">€0</span>
+            </div>
+        </div>
+        
+        <!-- BEBIDAS -->
+        <h2 class="section-title" onclick="toggleSection('acordeon04', this.querySelector('.toggle-symbol'))">
+            <span class="toggle-symbol">-</span> <span data-translate="seccion_04">SECCIÓN</span>
+        </h2>
+        <div class="menu-section" id="acordeon04">
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_16">Producto</span>
+                <span class="item-description" data-translate="descripcion_16">Descripción</span>
+                <span class="item-price" data-price="producto_16">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_17">Producto</span>
+                <span class="item-description" data-translate="descripcion_17">Descripción</span>
+                <span class="item-price" data-price="producto_17">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_18">Producto</span>
+                <span class="item-description" data-translate="descripcion_18">Descripción</span>
+                <span class="item-price" data-price="producto_18">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_19">Producto</span>
+                <span class="item-description" data-translate="descripcion_19">Descripción</span>
+                <span class="item-price" data-price="producto_19">€0</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name" data-translate="producto_20">Producto</span>
+                <span class="item-description" data-translate="descripcion_20">Descripción</span>
+                <span class="item-price" data-price="producto_20">€0</span>
+            </div>
+        </div>
 
-      <!-- Repite para las demás secciones (Para Picar, Para Comer, Bebidas) -->
+        <!-- Repetir aquí para más secciones de la carta -->
+        
+        <!-- Info Atòmic Bar / Footer -->
         <div class="logo-container" id="logoContainer">
-        <img src="../logo-atomic-bar.png" alt="Logo Atòmic Bar">
+            <img src="../logo-atomic-bar.png" alt="Logo Atòmic Bar">
+        </div>
+        
     </div>
-    </div>
-      <script src="translations.js"></script>
+    <script src="translations.js"></script>
     <script src="script.js"></script>
-  </body>
+</body>
 
 </html>

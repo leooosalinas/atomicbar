@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Atòmic Bar | Carrer de Puigmartí 40 - Gràcia, BCN</title>
     <link rel="icon" type="image/x-icon" href="logo-atomic-bar.png">
     <style>
-        
         body {
             margin: 0;
             height: 92vh;
@@ -17,8 +17,10 @@
 
         .logo-container {
             width: 50vw;
-            max-width: 300px; /* Ancho del logotipo como un porcentaje del ancho del viewport */
-            height: auto; /* Altura automática para mantener la proporción */
+            max-width: 300px;
+            /* Ancho del logotipo como un porcentaje del ancho del viewport */
+            height: auto;
+            /* Altura automática para mantener la proporción */
         }
 
         .logo-container img {
@@ -27,16 +29,27 @@
         }
 
         @keyframes rotateLogoRight {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         @keyframes rotateLogoLeft {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(-360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(-360deg);
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="logo-container" id="logoContainer">
         <img src="logo-atomic-bar.png" alt="Logo Atòmic Bar">
@@ -49,4 +62,5 @@
         };
     </script>
 </body>
+
 </html>
