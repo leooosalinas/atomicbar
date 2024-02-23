@@ -90,10 +90,11 @@ var translations = {
 
         /* PER MENJAR */
         seccion_03: "PER MENJAR",
-        producto_11: "Air Bag",
+        /*producto_11: "Air Bag",
         descripcion_11: "Sandvitx d'albergínia amb Gruyeré, Teta Gallega, espinacs, tomàquet sec i hummus.",
         producto_12: "El Dia De La Bèstia",
         descripcion_12: "Sandvitx de cecina amb Gruyeré, Teta Gallega, tomàquet sec i hummus.",
+*/
         producto_13: "Pernil-Pernil",
         descripcion_13: "Sandvitx de pernil Sierra amb Teta Gallega, Cheddar anglès, espinacs, tomàquet sec i hummus.",
         producto_14: "Hamburguesa Deluxe",
@@ -151,10 +152,11 @@ var translations = {
 
         /* TO EAT */
         seccion_03: "TO EAT",
-        producto_11: "Air Bag",
+        /*producto_11: "Air Bag",
         descripcion_11: "Eggplant sandwich with Gruyère, Galician Teta cheese, spinach, sun-dried tomato, and hummus.",
         producto_12: "The Day of the Beast",
         descripcion_12: "Cecina (cured beef) sandwich with Gruyère, Galician Teta cheese, sun-dried tomato, and hummus.",
+*/
         producto_13: "Ham-Ham",
         descripcion_13: "Sierra ham sandwich with Galician Teta cheese, English Cheddar, spinach, sun-dried tomato, and hummus.",
         producto_14: "Deluxe Burger",
