@@ -1,94 +1,118 @@
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: black;
-  color: white;
-  margin: 0;
-  padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
+
+/* SELECTOR DE IDIOMA */
+
 #language-selector {
-  position: fixed;
-  z-index: 1000;
+    position: fixed;
+    z-index: 1000;
     width: 100%;
     padding: 20px;
     background: #222;
 }
 
 #language-selector button {
-padding: 5px 10px;
-margin: 0 5px;
-font-size: 16px;
-border: 1px solid white;
-background-color: black;
-color: white;
-cursor: pointer;
-transition: background-color 0.3s;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 #language-selector button:hover {
-background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .button-active {
-background-color: white !important; /* O el color que prefieras para el botón activo */
-color: black !important;
-}
-.container {
-  width: 90%;
-  max-width: 600px;
-  margin: auto;
-  padding: 70px 20px 20px 20px;
+    background-color: white !important;
+    /* O el color que prefieras para el botón activo */
+    color: black !important;
 }
 
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 70px 20px 20px 20px;
+}
+
+/* CONTENIDO DE LA CARTA */
+
 .section-title {
-  font-size: 24px;
-  cursor: pointer;
-  padding: 10px;
-  border-bottom: 1px solid white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid white;
 }
 
 .menu-section {
-  display: none;
-  padding: 10px;
+    display: none;
+    padding: 10px;
 }
 
 .menu-item {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .item-name {
-  font-weight: bold;
-  margin-bottom: 5px; /* Espacio entre el título y la descripción */
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Espacio entre el título y la descripción */
 }
 
 .item-description {
-  font-size: smaller;
-	width: 90%;
+    font-size: smaller;
+    color: #ccc;
+    width: 90%;
 }
 
 .item-price {
-  align-self: flex-end;
-	margin-top: -20px; /* Ajusta para alinear con el título */
+    align-self: flex-end;
+    margin-top: -20px;
+    /* Ajusta para alinear con el título */
 }
 
+/* LOGOTIPO Y SU ROTACIÓN */
+
 .logo-container {
-            width: 50vw;
-            max-width: 200px; /* Ancho del logotipo como un porcentaje del ancho del viewport */
-            height: auto; /* Altura automática para mantener la proporción */
-        }
+    width: 50vw;
+    max-width: 200px;
+    /* Ancho del logotipo como un porcentaje del ancho del viewport */
+    height: auto;
+    /* Altura automática para mantener la proporción */
+}
 
-        .logo-container img {
-            width: 100%;
-  height: auto;
-        }
+.logo-container img {
+    width: 100%;
+    height: auto;
+}
 
-        @keyframes rotateLogoRight {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
+@keyframes rotateLogoRight {
+    from {
+        transform: rotate(0deg);
+    }
 
-        @keyframes rotateLogoLeft {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(-360deg); }
-        }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateLogoLeft {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
