@@ -12,6 +12,7 @@ body {
     position: fixed;
     z-index: 1000;
     width: 100%;
+    text-align: center;
     padding: 20px;
     background: #222;
 }
