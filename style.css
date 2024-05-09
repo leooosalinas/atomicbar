@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.logo-container {
+    width: 50vw;
+    max-width: 300px;
+    /* Ancho del logotipo como un porcentaje del ancho del viewport */
+    height: auto;
+    /* Altura automática para mantener la proporción */
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container p {
+    font-weight: 300;
+}
+
+.container a, .container a:visited {
+    color: #97a97c;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1280px) {
+     .container {
+         width: 30%;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .container {
+         width: 50%;
+     }
+ }
+
+@keyframes rotateLogoRight {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateLogoLeft {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}

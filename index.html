@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="logo-atomic-bar.png">
+    <link rel="stylesheet" href="style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K31YNKMKF7"></script>
     <script>
@@ -31,54 +32,16 @@
 
         gtag('config', 'G-K31YNKMKF7');
     </script>
-    <style>
-        body {
-            margin: 0;
-            height: 92vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-        }
-
-        .logo-container {
-            width: 50vw;
-            max-width: 300px;
-            /* Ancho del logotipo como un porcentaje del ancho del viewport */
-            height: auto;
-            /* Altura automática para mantener la proporción */
-        }
-
-        .logo-container img {
-            width: 100%;
-            height: auto;
-        }
-
-        @keyframes rotateLogoRight {
-            from {
-                transform: rotate(0deg);
-            }
-
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes rotateLogoLeft {
-            from {
-                transform: rotate(0deg);
-            }
-
-            to {
-                transform: rotate(-360deg);
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <div class="logo-container" id="logoContainer">
-        <img src="logo-atomic-bar.png" alt="Logo Atòmic Bar">
+    <div class="container">
+        <div class="logo-container" id="logoContainer">
+            <img src="logo-atomic-bar.png" alt="Logo Atòmic Bar">
+        </div>
+        <p>Pronto tendremos la carta disponible en la web, fotos, redes sociales más activas y todas esas promesas que nunca llegan. Lo que sí te podemos prometer es que tenemos la cerveza fría, el corazón caliente y buena música para acompañar esos cóctels.</p>
+        <p>Estamos en <a href="https://maps.app.goo.gl/3JD1qmPft45xsuhD8">Carrer de Puigmartí 40</a> y abrimos a eso de las 18:00h.</p>
+        <p>Los domingos dormimos.</p>
     </div>
     <script>
         window.onload = function() {
