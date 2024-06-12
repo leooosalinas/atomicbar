@@ -1,3 +1,31 @@
+/* HTML OUTPUT SEGÚN CANTIDAD DE SECCIONES Y PRODUCTOS */
+function renderMenu() {
+    const container = document.querySelector('.container');
+    Object.keys(menuData).forEach(section => {
+        const sectionData = menuData[section];
+        let sectionHTML = `<h2 class="section-title" onclick="toggleSection('carta-${section}', this.querySelector('.toggle-symbol'))">
+            <span class="toggle-symbol">-</span> <span data-translate="${section}">SECCIÓN</span>
+        </h2>
+        <div class="menu-section" id="carta-${section}">`;
+
+        sectionData.forEach(item => {
+            sectionHTML += `<div class="menu-item">
+                <span class="item-name" data-translate="producto_${item.id}">${item.name}</span>
+                <span class="item-description" data-translate="descripcion_${item.id}">${item.description}</span>
+                <span class="item-price">${item.price}</span>
+            </div>`;
+        });
+
+        sectionHTML += `<div class="section-footer" data-translate="nota_${section}">${menuData[section]}</div>`;
+        container.innerHTML += sectionHTML;
+    });
+}
+
+document.addEventListener('DOMContentLoaded', renderMenu);
+
+
+
+
 /* FUNCIONALIDAD PARA EXHIBIR IDIOMA */
 function setLanguage(language) {
     localStorage.setItem('selectedLanguage', language);
@@ -5,14 +33,8 @@ function setLanguage(language) {
         const key = el.dataset.translate;
         el.textContent = translations[language][key] || el.textContent;
     });
-    
-    // Mostrar precio
-    document.querySelectorAll("[data-price]").forEach(el => {
-        const priceKey = el.dataset.price;
-        el.textContent = prices[priceKey] || el.textContent;
-    });
 
-    // ON/OFF para botón seleccionado (idioma) seleccionado
+    // ON/OFF para botón seleccionado (idiogitma) seleccionado
     document.querySelectorAll("#language-selector button").forEach(button => {
         button.classList.remove('button-active');
     });
@@ -57,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
         titles[i].innerHTML = "−"; // Establece el símbolo a "−" ya que todas las secciones están abiertas
     }
 });
+
 
 /* ROTACIÓN DE LOGOTIPO */
 window.onload = function () {

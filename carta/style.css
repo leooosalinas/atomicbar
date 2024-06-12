@@ -70,7 +70,9 @@ body {
 .menu-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dashed #333;
 }
 
 .item-name {
@@ -81,14 +83,22 @@ body {
 
 .item-description {
     font-size: smaller;
-    color: #ccc;
+    color: #aaa;
     width: 90%;
 }
 
 .item-price {
     align-self: flex-end;
-    margin-top: -20px;
+    margin-top: -22px;
     /* Ajusta para alinear con el título */
+}
+
+.section-footer {
+    margin: 20px 0 0 0;
+    text-align: right;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: yellow;
 }
 
 /* LOGOTIPO Y ROTACIÓN */
