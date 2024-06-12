@@ -46,11 +46,29 @@ body {
     border: 1px solid white !important;
 }
 
-.container {
+/* CONTENEDORES DE CONTENIDO */
+
+.container, .container-footer {
     width: 90%;
     max-width: 600px;
     margin: auto;
     padding: 100px 20px 20px 20px;
+}
+
+.container-footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #ccc;
+    padding: 20px !important;
+}
+
+.container-footer a, .container-footer a:visited {
+    color: #777;
+    text-decoration: none;
+}
+
+.container-footer a:hover {
+    text-decoration: underline;
 }
 
 /* CONTENIDO DE LA CARTA */

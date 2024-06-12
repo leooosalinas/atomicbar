@@ -161,6 +161,10 @@ var translations = {
         descripcion_058: " ",
         producto_059: "Club-Mate",
         descripcion_059: " ",
+        
+        /* FOOTER, AUTOR (CATALÀ) */
+        
+        menu_author: "fet amb ♥ per Leonardo amb ajuda d'IA",
 
     },
 
@@ -325,6 +329,10 @@ var translations = {
         descripcion_058: " ",
         producto_059: "Club-Mate",
         descripcion_059: " ",
+        
+        /* FOOTER, AUTOR (ESPAÑOL) */
+        
+        menu_author: "hecho con ♥ por Leonardo con ayuda de IA",
 
     },
 
@@ -489,6 +497,10 @@ var translations = {
         descripcion_058: " ",
         producto_059: "Club-Mate",
         descripcion_059: " ",
+        
+        /* FOOTER, AUTHOR (ENGLISH) */
+        
+        menu_author: "made with ♥ by Leonardo with AI assistance",
 
     },
 
