@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atòmic Bar | Carrer de Puigmartí 40 - Gràcia, BCN</title>
+    <title>Atòmïc Bar | Carrer de Puigmartí 40 - Gràcia, Barcelona</title>
     <meta name="description" content="No sólo somos un bar atómico. También somos un bar acogedor, íntimo, siempre con buena música y buena gente. Los domingos dormimos.">
-    <meta name="author" content="Atòmic Bar">
+    <meta name="author" content="Atòmïc Bar">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Atòmic Bar | Carrer de Puigmartí 40 - Gràcia, BCN">
+    <meta property="og:title" content="Atòmïc Bar | Carrer de Puigmartí 40 - Gràcia, Barcelona">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.atomic-bar.com">
     <meta property="og:image" content="../logo-atomic-bar.png">
-    <meta property="og:description" content="No sólo somos un bar atómico. También somos un bar acogedor, íntimo, siempre con buena música y buena gente. Los domingos dormimos.">
-    <meta property="og:site_name" content="Atòmic Bar">
+    <meta property="og:description" content="No sólo somos un bar atómico; también somos un bar acogedor, íntimo, siempre con buena música y buena gente. Los domingos dormimos.">
+    <meta property="og:site_name" content="Atòmïc Bar">
     <link rel="canonical" href="https://www.atomic-bar.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../logo-atomic-bar.png">
     <link rel="stylesheet" href="style.css">
     <!-- Google tag (gtag.js) -->
@@ -39,8 +39,8 @@
     <!-- Selector de idioma -->
     <div id="language-selector">
         <div class="titulo-carta">
-            <h1>Àtomic Bar</h1>
-            <p>Carrer de Puigmartí 40 - Gràcia, BCN</p>
+            <h1>Atòmïc Bar</h1>
+            <p><a href="https://maps.app.goo.gl/3JD1qmPft45xsuhD8">Carrer de Puigmartí 40 - Gràcia, Barcelona</a></p>
         </div>
         <div class="botones-idioma">
             <button id="btn-ca" onclick="setLanguage('ca')">Català</button>
@@ -51,16 +51,26 @@
 
     <!-- Carta Atòmica -->
     <div class="container">
-
     </div>
 
     <div class="container-footer">
+        <div class="logo-container" id="logoContainer">
+            <img src="../logo-atomic-bar.png" alt="Logo Atòmic Bar">
+        </div>
         <a href="https://leosalinas.com" target="_blank" data-translate="menu_author"></a>
     </div>
 
     <script src="translations.js"></script>
     <script src="script.js"></script>
     <script src="products.js"></script>
+    <script>
+        window.onload = function() {
+            var logoContainer = document.getElementById('logoContainer');
+            var rotateDirection = Math.random() < 0.5 ? 'rotateLogoRight' : 'rotateLogoLeft';
+            logoContainer.style.animation = rotateDirection + ' 60s linear infinite';
+        };
+
+    </script>
 </body>
 
 </html>

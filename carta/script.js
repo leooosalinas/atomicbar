@@ -46,6 +46,14 @@ function setLanguage(language) {
 /* FUNCIONES DE IDIOMA */
 
 document.addEventListener('DOMContentLoaded', () => {
+    const savedLanguage = localStorage.getItem('selectedLanguage') || 'ca';
+    setLanguage(savedLanguage);
+    document.querySelector(`#btn-${savedLanguage}`).classList.add('button-active');
+});
+
+/*
+
+document.addEventListener('DOMContentLoaded', () => {
     
   // Obtener el idioma del navegador y ajustarlo si es necesario
     
@@ -65,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector(`#btn-${savedLanguage}`).classList.add('button-active');
 });
 
+*/
 
 /* EXPANDIR Y CONTRAER MENÚ ACORDEÓN */
 
@@ -85,8 +94,16 @@ function toggleSection(sectionId, element) {
 document.addEventListener('DOMContentLoaded', function () {
     var sections = document.getElementsByClassName('menu-section');
     var titles = document.getElementsByClassName('toggle-symbol');
+
+    // Cerrar todas las secciones primero
     for (var i = 0; i < sections.length; i++) {
-        sections[i].style.display = 'block'; // Todas las secciones abiertas por defecto
-        titles[i].innerHTML = "−"; // Establece el símbolo a "−" ya que todas las secciones están abiertas
+        sections[i].style.display = 'none'; 
+        titles[i].innerHTML = "+";
+    }
+
+    // Abrir solo la primera sección
+    if (sections.length > 0) {
+        sections[0].style.display = 'block';
+        titles[0].innerHTML = "−";
     }
 });

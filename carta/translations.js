@@ -164,7 +164,7 @@ var translations = {
         
         /* FOOTER, AUTOR (CATALÀ) */
         
-        menu_author: "fet amb ♥ per Leonardo amb ajuda d'IA",
+        menu_author: "fet amb ♥ per Leo(nardo) Salinas amb ajuda d'IA",
 
     },
 
@@ -332,7 +332,7 @@ var translations = {
         
         /* FOOTER, AUTOR (ESPAÑOL) */
         
-        menu_author: "hecho con ♥ por Leonardo con ayuda de IA",
+        menu_author: "hecho con ♥ por Leo(nardo) Salinas con ayuda de IA",
 
     },
 
@@ -500,7 +500,7 @@ var translations = {
         
         /* FOOTER, AUTHOR (ENGLISH) */
         
-        menu_author: "made with ♥ by Leonardo with AI assistance",
+        menu_author: "made with ♥ by Leo(nardo) Salinas with AI assistance",
 
     },
 
