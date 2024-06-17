@@ -36,31 +36,38 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="logo-container" id="logoContainer">
-            <img src="logo-atomic-bar.png" alt="Logo Atòmic Bar">
+    <!-- Selector de idioma -->
+    <div id="language-selector">
+        <div class="titulo-carta">
+            <h1>Atòmïc Bar</h1>
+            <p><a href="https://maps.app.goo.gl/3JD1qmPft45xsuhD8">Carrer de Puigmartí 40 - Gràcia, Barcelona</a></p>
         </div>
-        <h1>Atòmïc Bar</h1>
-        <p><a href="https://maps.app.goo.gl/3JD1qmPft45xsuhD8">Carrer de Puigmartí 40, Gràcia, Barcelona</a></p>
-        <p class="menu-title">Horari</p>
-        <p>Dilluns a Dijous: 18h-00h<br> Divendres i Dissabte: 18h-01h<br> Diumenge: zzZZ...</p>
-        <p class="menu-title">Veure Carta</p>
-        <div class="menu-buttons">
-            <button id="btn-ca" class="menu-button" aria-label="Ver carta de L'Atòmïc Bar" onclick="setMenuLanguage('ca')">Català</button>
-            <button id="btn-es" class="menu-button" aria-label="Ver carta de L'Atòmïc Bar" onclick="setMenuLanguage('es')">Español</button>
-            <button id="btn-en" class="menu-button" aria-label="Ver carta de L'Atòmïc Bar" onclick="setMenuLanguage('en')">English</button>
+        <div class="botones-idioma">
+            <button id="btn-ca" onclick="setLanguage('ca')">Català</button>
+            <button id="btn-es" onclick="setLanguage('es')">Español</button>
+            <button id="btn-en" onclick="setLanguage('en')">English</button>
         </div>
     </div>
+
+    <!-- Carta Atòmica -->
+    <div class="container">
+    </div>
+
+    <div class="container-footer">
+        <div class="logo-container" id="logoContainer">
+            <img src="../logo-atomic-bar.png" alt="Logo Atòmic Bar">
+        </div>
+        <a href="https://leosalinas.com" target="_blank" data-translate="menu_author"></a>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script src="products.js"></script>
     <script>
         window.onload = function() {
             var logoContainer = document.getElementById('logoContainer');
             var rotateDirection = Math.random() < 0.5 ? 'rotateLogoRight' : 'rotateLogoLeft';
             logoContainer.style.animation = rotateDirection + ' 60s linear infinite';
-        };
-
-        function setMenuLanguage(language) {
-            localStorage.setItem('selectedLanguage', language);
-            window.location.href = 'menu/index.html';
         };
 
     </script>
