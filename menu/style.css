@@ -16,7 +16,6 @@ body {
     padding: 10px 0px 20px;
     background: #222;
 }
-
 #language-selector button {
     padding: 5px 12px;
     margin: 0 5px;
@@ -55,6 +54,7 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     margin: 0;
+    color: white;
 }
 .titulo-carta p {
     font-size: .8rem;
