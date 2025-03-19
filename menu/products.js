@@ -161,10 +161,7 @@ const menuData = {
             id: "049",
             price: "3€"
         }, // Vermut Artesanal Blanco
-{
-            id: "060",
-            price: "6€"
-        }, // Sangria
+{id: "060",price: "6€"}, // Sangria
         // Añade más ítems aquí
     ],
     cervezas: [
