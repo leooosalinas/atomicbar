@@ -130,7 +130,9 @@ var translations = {
         producto_048: "Vermut Artesanal Negre",
         descripcion_048: " ",
         producto_049: "Vermut Artesanal Blanc",
-        descripcion_049: " ",producto_060: "Sangría",descripcion_060: " ",
+        descripcion_049: " ",
+producto_060: "Sangría",
+descripcion_060: " ",
 
         /* XUPITOS (CATALÀ) */
 
@@ -298,7 +300,9 @@ var translations = {
         producto_048: "Vermut Artesanal Tinto",
         descripcion_048: " ",
         producto_049: "Vermut Artesanal Blanco",
-        descripcion_049: " ",producto_060: "Sangría",descripcion_060: " ",
+        descripcion_049: " ",
+producto_060: "Sangría",
+descripcion_060: " ",
 
         /* CHUPITOS (ESPAÑOL) */
 
@@ -466,7 +470,10 @@ var translations = {
         producto_048: "Craft Red Vermouth",
         descripcion_048: " ",
         producto_049: "Craft White Vermouth",
-        descripcion_049: " ",producto_060: "Sangría",descripcion_060: " ",
+        descripcion_049: " ",
+producto_060: "Sangría",
+descripcion_060: " ",
+
         /* SHOTS (ENGLISH) */
 
         chupitos: "SHOTS",
