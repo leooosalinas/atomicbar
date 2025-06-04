@@ -3,61 +3,67 @@ const menuData = {
         {
             id: "001",
             price: "8,50€"
-            }, // Whisky Sour
+        }, // Whisky Sour
 
         {
             id: "002",
             price: "8,50€"
-            }, // Pisco Sour
+        }, // Pisco Sour
 
         {
             id: "003",
             price: "8,50€"
-            }, // Dark 'n' Stormy
+        }, // Dark 'n' Stormy
         {
             id: "004",
             price: "8,50€"
-            }, // Cuba Libre
+        }, // Cuba Libre
 
         {
             id: "005",
             price: "8€"
-            }, // Materushka
+        }, // Materushka
         {
             id: "008",
             price: "8,50€"
-            }, // Moscow Mule
+        }, // Moscow Mule
         {
             id: "012",
             price: "9€"
-            }, // Espresso Martini
+        }, // Espresso Martini
 
         {
             id: "006",
             price: "7,50€"
-            }, // Margarita
+        }, // Margarita
 
         {
             id: "009",
             price: "10€"
-            }, // Bloody Mezcal
+        }, // Bloody Mezcal
+        
+        {
+            id: "061",
+            price: " €"
+        }, // Fruit Punch
+        {
+            id: "062",
+            price: " €"
+        }, // Paloma
 
         {
             id: "007",
             price: "8 - 12€"
-            }, // Gin Tonic
+        }, // Gin Tonic
 
         {
             id: "010",
             price: "6,50€"
-            }, // Michelada
+        }, // Michelada
         {
             id: "011",
             price: "6,50€"
-            }, // Spritz
-
-
-        // Añade más ítems aquí
+        } // Spritz
     ],
     tapas: [
         {
@@ -99,7 +105,7 @@ const menuData = {
         {
             id: "022",
             price: "2,50€"
-        }, // Patatas chips
+        } // Patatas chips
         // Añade más ítems aquí
     ],
     platos: [
@@ -119,22 +125,25 @@ const menuData = {
             id: "043",
             price: "15€"
         }, // Plato de embutidos
+        {
+            id: "065",
+            price: " €"
+        } // Albondigas al chimichurri
         // Añade más ítems aquí
     ],
     bocatas: [
         {
             id: "037",
-            price: "7,50€"
+            price: "8,50€"
         }, // Air Bag
         {
             id: "038",
-            price: "8,50€"
+            price: "9,50€"
         }, // Día de la Bestia
         {
             id: "039",
-            price: "8€"
-        }, // Jamón-Jamón
-        // Añade más ítems aquí
+            price: "9€"
+        } // Jamón-Jamón
     ],
     vinos: [
         {
@@ -161,7 +170,18 @@ const menuData = {
             id: "049",
             price: "3€"
         }, // Vermut Artesanal Blanco
-{id: "060",price: "6€"}, // Sangria
+        { 
+            id: "060",
+            price: "6€"
+        }, // Sangria
+        {
+            id: "063",
+            price: " €"
+        }, // Cava (Copa)
+        {
+            id: "064",
+            price: " €"
+        } // Cava (Botella)
         // Añade más ítems aquí
     ],
     cervezas: [
@@ -195,12 +215,12 @@ const menuData = {
         }, // 1906 Reserva
         {
             id: "031",
-            price: "3€"
-        }, // Turia
-        {
+            price: "3,50€"
+        }, // Alhambra Reserva 1925
+        /*{
             id: "032",
             price: "3,50€"
-        }, // Voll-Damm Doble Malta
+        }, // Voll-Damm Doble Malta */
         {
             id: "033",
             price: "5,25€"
@@ -220,7 +240,7 @@ const menuData = {
         {
             id: "023",
             price: "3,50€"
-        }, // Sidra Maeloc
+        } // Sidra Maeloc
         // Añade más ítems aquí
     ],
     chupitos: [
@@ -239,7 +259,7 @@ const menuData = {
         {
             id: "053",
             price: "3€"
-        }, // Orujo de hierbas
+        } // Orujo de hierbas
         // Añade más ítems aquí
     ],
     bebidas: [
@@ -266,7 +286,7 @@ const menuData = {
         {
             id: "059",
             price: "4€"
-        }, // Club-Mate
-    ],
+        } // Club-Mate
+    ]
     // Añade más categorías aquí
 };

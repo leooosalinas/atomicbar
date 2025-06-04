@@ -1,9 +1,7 @@
 var translations = {
-
     /* ##################### CATALÀ ##################### */
 
     ca: {
-
         /* CÒCTELS (CATALÀ) */
 
         cocteles: "CÒCTELS",
@@ -32,6 +30,10 @@ var translations = {
         descripcion_011: "Aperol, Prosseco, soda, rodanxa de taronja",
         producto_012: "Espresso Martini",
         descripcion_012: "Vodka, cafè exprés, licor de cafè, xarop de sucre",
+        producto_061: "Ponc Fruital",
+        descripcion_061: "Rom Brugal, Malibú, llima, maracujà, préssec, xarop d'agave",
+        producto_062: "Paloma",
+        descripcion_062: "Tequila o mezcal, aranja, llimona natural, xarop d'agave, aigua amb gas",
 
         /* TAPES (CATALÀ)  */
 
@@ -67,14 +69,17 @@ var translations = {
         producto_041: "Plat de Pernil Serrà",
         descripcion_041: " ",
         producto_042: "Plat de formatges",
-        descripcion_042: "Barreja de formatge de cabra fumat, muenster, camembert i formatge blau, acompanyat de melmelada de fruita i fruits secs",
+        descripcion_042:
+            "Barreja de formatge de cabra fumat, muenster, camembert i formatge blau, acompanyat de melmelada de fruita i fruits secs",
         producto_043: "Plat d'embotits",
         descripcion_043: "Barreja de fuet, xoriço ibèric i llom embutit",
+        producto_065: "Mandonguilles amb chimichurri",
+        descripcion_065: " ",
 
-        /* ENTREPÀS (CATALÀ) */
+        /* FOCACCIAS (CATALÀ) */
 
-        bocatas: "ENTREPÀS",
-        nota_bocatas: "Tots els entrepàs són preparats amb pa de massa mare d'Origo Bakery",
+        bocatas: "FOCACCIAS",
+        nota_bocatas: " ",
         producto_037: "Air Bag",
         descripcion_037: "Albergínia, Gruyère, pebrot, teta gallega, ruca i tomàquet sec",
         producto_038: "Día de la Bestia",
@@ -100,10 +105,10 @@ var translations = {
         descripcion_029: "Cervesa amb maracujà · 20cl",
         producto_030: "1906 Reserva",
         descripcion_030: "Helles Bock · 6.5% · Ampolla 33cl",
-        producto_031: "Turia",
-        descripcion_031: "Tostada · 5.4% · Ampolla 33cl",
-        producto_032: "Voll-Damm Doble Malta",
-        descripcion_032: "Märzenbier · 7.2% · Ampolla 33cl",
+        producto_031: "Alhambra Reserva 1925",
+        descripcion_031: "Amber Lager · 6.4% · Ampolla 33cl",
+        /*producto_032: "Voll-Damm Doble Malta",
+        descripcion_032: "Märzenbier · 7.2% · Ampolla 33cl",*/
         producto_033: "BrewDog PUNK IPA",
         descripcion_033: "5.4% · Llauna 33cl",
         producto_034: "BrewDog PUNK IPA (Alcohol Free)",
@@ -131,13 +136,17 @@ var translations = {
         descripcion_048: " ",
         producto_049: "Vermut Artesanal Blanc",
         descripcion_049: " ",
-producto_060: "Sangría",
-descripcion_060: " ",
+        producto_060: "Sangría",
+        descripcion_060: " ",
+        producto_063: "Cava (Copa)",
+        descripcion_063: " ",
+        producto_064: "Cava (Ampolla)",
+        descripcion_064: " ",
 
         /* XUPITOS (CATALÀ) */
 
         chupitos: "XUPITOS",
-        nota_chupitos: "Consulta per altres licors (i els seus preus) a la barra",
+        nota_chupitos: " ",
         producto_050: "Mezcal Divino Maguey Espadín",
         descripcion_050: " ",
         producto_051: "Chispazo",
@@ -146,9 +155,9 @@ descripcion_060: " ",
         descripcion_052: " ",
         producto_053: "Orujo d'herbes",
         descripcion_053: " ",
-        
+
         /* BEGUDES I REFRESCOS (CATALÀ) */
-        
+
         bebidas: "BEGUDES I REFRESCOS",
         nota_bebidas: " ",
         producto_054: "Llimonada natural",
@@ -163,17 +172,15 @@ descripcion_060: " ",
         descripcion_058: " ",
         producto_059: "Club-Mate",
         descripcion_059: " ",
-        
-        /* FOOTER, AUTOR (CATALÀ) */
-        
-        menu_author: "fet amb ♥ per Leo(nardo) Salinas amb ajuda d'IA",
 
+        /* FOOTER, AUTOR (CATALÀ) */
+
+        menu_author: "fet amb ♥ per Leo(nardo) Salinas amb ajuda d'IA"
     },
 
     /* ##################### ESPAÑOL ##################### */
 
     es: {
-
         /* CÓCTELES (ESPAÑOL) */
 
         cocteles: "CÓCTELES",
@@ -202,6 +209,10 @@ descripcion_060: " ",
         descripcion_011: "Aperol, Prosseco, soda, rodaja de naranja",
         producto_012: "Espresso Martini",
         descripcion_012: "Vodka, café expreso, licor de café, jarabe de azúcar",
+        producto_061: "Ponche Frutal",
+        descripcion_061: "Ron Brugal, Malibú, Lima, Maracuyá, Melocotón, Sirope de Agave",
+        producto_062: "Paloma",
+        descripcion_062: "Tequila ó Mezcal, Pomelo, Limón natural, Sirope de Agave, Agua de Soda",
 
         /* TAPAS (ESPAÑOL) */
 
@@ -237,14 +248,17 @@ descripcion_060: " ",
         producto_041: "Plato de Jamón Serrano",
         descripcion_041: " ",
         producto_042: "Plato de quesos",
-        descripcion_042: "Mix de queso de cabra ahumado, muenster, camembert y queso azul, acompañado de mermelada de fruta y frutos secos",
+        descripcion_042:
+            "Mix de queso de cabra ahumado, muenster, camembert y queso azul, acompañado de mermelada de fruta y frutos secos",
         producto_043: "Plato de embutidos",
         descripcion_043: "Mix de fuet, chorizo ibérico y lomo embuchado",
+        producto_065: "Albóndigas al Chimichurri",
+        descripcion_065: " ",
 
-        /* BOCATAS (ESPAÑOL) */
+        /* FOCACCIAS (ESPAÑOL) */
 
-        bocatas: "BOCATAS",
-        nota_bocatas: "Todos los bocatas son preparados con pan de masamadre de Origo Bakery",
+        bocatas: "FOCACCIAS",
+        nota_bocatas: " ",
         producto_037: "Air Bag",
         descripcion_037: "Berenjena, Gruyère, pimiento, teta gallega, rúcula y tomate seco",
         producto_038: "Día de la Bestia",
@@ -270,10 +284,10 @@ descripcion_060: " ",
         descripcion_029: "Cerveza con maracuyá · 20cl",
         producto_030: "1906 Reserva",
         descripcion_030: "Helles Bock · 6.5% · Botella 33cl",
-        producto_031: "Turia",
-        descripcion_031: "Tostada · 5.4% · Botella 33cl",
-        producto_032: "Voll-Damm Doble Malta",
-        descripcion_032: "Märzenbier · 7.2% · Botella 33cl",
+        producto_031: "Alhambra Reserva 1925",
+        descripcion_031: "Amber Lager · 6.4% · Botella 33cl",
+        /*producto_032: "Voll-Damm Doble Malta",
+        descripcion_032: "Märzenbier · 7.2% · Botella 33cl",*/
         producto_033: "BrewDog PUNK IPA",
         descripcion_033: "5.4% · Lata 33cl",
         producto_034: "BrewDog PUNK IPA (Sin Alcohol)",
@@ -301,13 +315,17 @@ descripcion_060: " ",
         descripcion_048: " ",
         producto_049: "Vermut Artesanal Blanco",
         descripcion_049: " ",
-producto_060: "Sangría",
-descripcion_060: " ",
+        producto_060: "Sangría",
+        descripcion_060: " ",
+        producto_063: "Cava (Copa)",
+        descripcion_063: " ",
+        producto_064: "Cava (Botella)",
+        descripcion_064: " ",
 
         /* CHUPITOS (ESPAÑOL) */
 
         chupitos: "CHUPITOS",
-        nota_chupitos: "Consulta por otros licores (y sus precios) en la barra",
+        nota_chupitos: " ",
         producto_050: "Mezcal Divino Maguey Espadín",
         descripcion_050: " ",
         producto_051: "Chispazo",
@@ -316,9 +334,9 @@ descripcion_060: " ",
         descripcion_052: " ",
         producto_053: "Orujo de hierbas",
         descripcion_053: " ",
-        
+
         /* BEBIDAS Y REFRESCOS (ESPAÑOL) */
-        
+
         bebidas: "BEBIDAS Y REFRESCOS",
         nota_bebidas: " ",
         producto_054: "Limonada natural",
@@ -333,17 +351,15 @@ descripcion_060: " ",
         descripcion_058: " ",
         producto_059: "Club-Mate",
         descripcion_059: " ",
-        
-        /* FOOTER, AUTOR (ESPAÑOL) */
-        
-        menu_author: "hecho con ♥ por Leo(nardo) Salinas con ayuda de IA",
 
+        /* FOOTER, AUTOR (ESPAÑOL) */
+
+        menu_author: "hecho con ♥ por Leo(nardo) Salinas con ayuda de IA"
     },
 
     /* ##################### ENGLISH ##################### */
 
     en: {
-
         /* COCKTAILS (ENGLISH) */
 
         cocteles: "COCKTAILS",
@@ -372,6 +388,10 @@ descripcion_060: " ",
         descripcion_011: "Aperol, Prosseco, soda, slice of orange",
         producto_012: "Espresso Martini",
         descripcion_012: "Vodka, espresso coffee, coffee liqueur, sugar syrup",
+        producto_061: "Fruity Punch",
+        descripcion_061: "Brugal Rum, Malibú, lime, passion fruit, peach, agave syrup",
+        producto_062: "Paloma",
+        descripcion_062: "Tequila or Mezcal, grapefruit, fresh lemon, agave syrup, soda water",
 
         /* TAPAS (ENGLISH) */
 
@@ -407,14 +427,17 @@ descripcion_060: " ",
         producto_041: "Plate of Serrano Ham",
         descripcion_041: " ",
         producto_042: "Cheese Platter",
-        descripcion_042: "Mix of smoked goat cheese, Muenster, Camembert, and blue cheese, accompanied by fruit jam and nuts",
+        descripcion_042:
+            "Mix of smoked goat cheese, Muenster, Camembert, and blue cheese, accompanied by fruit jam and nuts",
         producto_043: "Cold Cuts Platter",
         descripcion_043: "Mix of fuet, Iberian chorizo, and cured loin",
+        producto_065: "Meatballs with Chimichurri",
+        descripcion_065: " ",
 
-        /* SANDWICHES (ENGLISH) */
+        /* FOCACCIAS (ENGLISH) */
 
-        bocatas: "SANDWICHES",
-        nota_bocatas: "All sandwiches are made with sourdough bread from Origo Bakery",
+        bocatas: "FOCACCIAS",
+        nota_bocatas: " ",
         producto_037: "Air Bag",
         descripcion_037: "Eggplant, Gruyère, bell pepper, teta gallega, arugula, and sun-dried tomato",
         producto_038: "Día de la Bestia",
@@ -440,10 +463,10 @@ descripcion_060: " ",
         descripcion_029: "Beer with passion fruit · 200ml",
         producto_030: "1906 Reserva",
         descripcion_030: "Helles Bock · 6.5% · Bottle 330ml",
-        producto_031: "Turia",
-        descripcion_031: "Toasted · 5.4% · Bottle 330ml",
-        producto_032: "Voll-Damm Doble Malta",
-        descripcion_032: "Märzenbier · 7.2% · Bottle 330ml",
+        producto_031: "Alhambra Reserva 1925",
+        descripcion_031: "Amber Lager · 6.4% · Bottle 330ml",
+        /*producto_032: "Voll-Damm Doble Malta",
+        descripcion_032: "Märzenbier · 7.2% · Bottle 330ml",*/
         producto_033: "BrewDog PUNK IPA",
         descripcion_033: "5.4% · Can 330ml",
         producto_034: "BrewDog PUNK IPA (Alcohol Free)",
@@ -471,13 +494,17 @@ descripcion_060: " ",
         descripcion_048: " ",
         producto_049: "Craft White Vermouth",
         descripcion_049: " ",
-producto_060: "Sangría",
-descripcion_060: " ",
+        producto_060: "Sangría",
+        descripcion_060: " ",
+        producto_063: "Cava (Glass)",
+        descripcion_063: " ",
+        producto_064: "Cava (Bottle)",
+        descripcion_064: " ",
 
         /* SHOTS (ENGLISH) */
 
         chupitos: "SHOTS",
-        nota_chupitos: "Ask about other liquors (and their prices) at the bar",
+        nota_chupitos: " ",
         producto_050: "Mezcal Divino Maguey Espadín",
         descripcion_050: " ",
         producto_051: "Chispazo",
@@ -486,9 +513,9 @@ descripcion_060: " ",
         descripcion_052: " ",
         producto_053: "Herbal liqueur",
         descripcion_053: " ",
-        
+
         /* SOFT DRINKS (ENGLISH) */
-        
+
         bebidas: "SOFT DRINKS",
         nota_bebidas: " ",
         producto_054: "Natural lemonade",
@@ -503,12 +530,11 @@ descripcion_060: " ",
         descripcion_058: " ",
         producto_059: "Club-Mate",
         descripcion_059: " ",
-        
-        /* FOOTER, AUTHOR (ENGLISH) */
-        
-        menu_author: "made with ♥ by Leo(nardo) Salinas with AI assistance",
 
-    },
+        /* FOOTER, AUTHOR (ENGLISH) */
+
+        menu_author: "made with ♥ by Leo(nardo) Salinas with AI assistance"
+    }
 
     // Más idiomas aquí
 };
