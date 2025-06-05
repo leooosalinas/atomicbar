@@ -486,7 +486,7 @@ var translations = {
         descripcion_046: "Carignan, Grenache and Syrah · DO Montsant",
         producto_047: "Fuentenarro (red)",
         descripcion_047: "Tempranillo · DO Ribera del Duero",
-        producto_048: "Craft Vermouth",
+        producto_048: "Vermouth (Craft)",
         descripcion_048: "Red or White",
         producto_060: "Sangría",
         descripcion_060: " ",
