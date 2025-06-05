@@ -208,9 +208,9 @@ var translations = {
         producto_012: "Espresso Martini",
         descripcion_012: "Vodka, café expreso, licor de café, jarabe de azúcar",
         producto_061: "Ponche Frutal",
-        descripcion_061: "Ron Brugal, Malibú, Lima, Maracuyá, Melocotón, Sirope de Agave",
+        descripcion_061: "Ron Brugal, Malibú, lima, maracuyá, melocotón, sirope de agave",
         producto_062: "Paloma",
-        descripcion_062: "Tequila (ó Mezcal +1,50€), Pomelo, Limón natural, Sirope de Agave, Agua de Soda",
+        descripcion_062: "Tequila (ó Mezcal +1,50€), pomelo, limón natural, sirope de agave, agua de soda",
 
         /* TAPAS (ESPAÑOL) */
 
