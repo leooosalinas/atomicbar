@@ -34,7 +34,7 @@ const menuData = {
 
         {
             id: "006",
-            price: "7,50€"
+            price: "8,50€"
         }, // Margarita
 
         {
@@ -44,12 +44,12 @@ const menuData = {
         
         {
             id: "061",
-            price: " €"
+            price: "8,50€"
         }, // Fruit Punch
         {
             id: "062",
-            price: " €"
-        }, // Paloma
+            price: "8,50€"
+        }, // Paloma (Tequila)
 
         {
             id: "007",
@@ -95,6 +95,10 @@ const menuData = {
             price: "6,50€"
         }, // Hummus de remolacha
         {
+            id: "065",
+            price: " €"
+        }, // Albondigas al chimichurri
+        {
             id: "018",
             price: "7€"
         }, // Tapa de fuet
@@ -124,11 +128,7 @@ const menuData = {
         {
             id: "043",
             price: "15€"
-        }, // Plato de embutidos
-        {
-            id: "065",
-            price: " €"
-        } // Albondigas al chimichurri
+        } // Plato de embutidos
         // Añade más ítems aquí
     ],
     bocatas: [
@@ -164,7 +164,7 @@ const menuData = {
         }, // Fuentenarro
         {
             id: "048",
-            price: "2,75€"
+            price: "3€"
         }, // Vermut Artesanal Tinto
         {
             id: "049",
@@ -176,11 +176,11 @@ const menuData = {
         }, // Sangria
         {
             id: "063",
-            price: " €"
+            price: "3€"
         }, // Cava (Copa)
         {
             id: "064",
-            price: " €"
+            price: "16€"
         } // Cava (Botella)
         // Añade más ítems aquí
     ],

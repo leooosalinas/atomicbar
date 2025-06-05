@@ -33,7 +33,7 @@ var translations = {
         producto_061: "Ponc Fruital",
         descripcion_061: "Rom Brugal, Malibú, llima, maracujà, préssec, xarop d'agave",
         producto_062: "Paloma",
-        descripcion_062: "Tequila o mezcal, aranja, llimona natural, xarop d'agave, aigua amb gas",
+        descripcion_062: "Tequila (o Mezcal +1,50€), aranja, llimona natural, xarop d'agave, aigua amb gas",
 
         /* TAPES (CATALÀ)  */
 
@@ -59,6 +59,8 @@ var translations = {
         descripcion_021: " ",
         producto_022: "Patates xips",
         descripcion_022: " ",
+        producto_065: "Mandonguilles amb chimichurri",
+        descripcion_065: " ",
 
         /* PLATS (CATALÀ) */
 
@@ -73,8 +75,6 @@ var translations = {
             "Barreja de formatge de cabra fumat, muenster, camembert i formatge blau, acompanyat de melmelada de fruita i fruits secs",
         producto_043: "Plat d'embotits",
         descripcion_043: "Barreja de fuet, xoriço ibèric i llom embutit",
-        producto_065: "Mandonguilles amb chimichurri",
-        descripcion_065: " ",
 
         /* FOCACCIAS (CATALÀ) */
 
@@ -212,7 +212,7 @@ var translations = {
         producto_061: "Ponche Frutal",
         descripcion_061: "Ron Brugal, Malibú, Lima, Maracuyá, Melocotón, Sirope de Agave",
         producto_062: "Paloma",
-        descripcion_062: "Tequila ó Mezcal, Pomelo, Limón natural, Sirope de Agave, Agua de Soda",
+        descripcion_062: "Tequila (ó Mezcal +1,50€), Pomelo, Limón natural, Sirope de Agave, Agua de Soda",
 
         /* TAPAS (ESPAÑOL) */
 
@@ -238,6 +238,8 @@ var translations = {
         descripcion_021: " ",
         producto_022: "Patatas chips",
         descripcion_022: " ",
+        producto_065: "Albóndigas al Chimichurri",
+        descripcion_065: " ",
 
         /* PLATOS (ESPAÑOL) */
 
@@ -252,8 +254,6 @@ var translations = {
             "Mix de queso de cabra ahumado, muenster, camembert y queso azul, acompañado de mermelada de fruta y frutos secos",
         producto_043: "Plato de embutidos",
         descripcion_043: "Mix de fuet, chorizo ibérico y lomo embuchado",
-        producto_065: "Albóndigas al Chimichurri",
-        descripcion_065: " ",
 
         /* FOCACCIAS (ESPAÑOL) */
 
@@ -391,7 +391,7 @@ var translations = {
         producto_061: "Fruity Punch",
         descripcion_061: "Brugal Rum, Malibú, lime, passion fruit, peach, agave syrup",
         producto_062: "Paloma",
-        descripcion_062: "Tequila or Mezcal, grapefruit, fresh lemon, agave syrup, soda water",
+        descripcion_062: "Tequila (or Mezcal +1,50€), grapefruit, fresh lemon, agave syrup, soda water",
 
         /* TAPAS (ENGLISH) */
 
@@ -417,6 +417,8 @@ var translations = {
         descripcion_021: " ",
         producto_022: "Patato chips",
         descripcion_022: " ",
+        producto_065: "Meatballs with Chimichurri",
+        descripcion_065: " ",
 
         /* PLATS (ENGLISH) */
 
@@ -431,8 +433,6 @@ var translations = {
             "Mix of smoked goat cheese, Muenster, Camembert, and blue cheese, accompanied by fruit jam and nuts",
         producto_043: "Cold Cuts Platter",
         descripcion_043: "Mix of fuet, Iberian chorizo, and cured loin",
-        producto_065: "Meatballs with Chimichurri",
-        descripcion_065: " ",
 
         /* FOCACCIAS (ENGLISH) */
 
