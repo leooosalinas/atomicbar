@@ -1,5 +1,14 @@
 const menuData = {
     cocteles: [
+        
+        {
+            id: "061",
+            price: "8,50€"
+        }, // Fruit Punch
+        {
+            id: "062",
+            price: "8,50€"
+        }, // Paloma (Tequila)
         {
             id: "001",
             price: "8,50€"
@@ -41,15 +50,6 @@ const menuData = {
             id: "009",
             price: "10€"
         }, // Bloody Mezcal
-        
-        {
-            id: "061",
-            price: "8,50€"
-        }, // Fruit Punch
-        {
-            id: "062",
-            price: "8,50€"
-        }, // Paloma (Tequila)
 
         {
             id: "007",
