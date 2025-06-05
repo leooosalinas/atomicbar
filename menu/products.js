@@ -165,11 +165,11 @@ const menuData = {
         {
             id: "048",
             price: "3€"
-        }, // Vermut Artesanal Tinto
-        {
+        }, // Vermut Artesanal
+        /*{
             id: "049",
             price: "3€"
-        }, // Vermut Artesanal Blanco
+        }, // Vermut Artesanal Blanco */
         { 
             id: "060",
             price: "6€"
