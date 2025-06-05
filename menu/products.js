@@ -96,7 +96,7 @@ const menuData = {
         }, // Hummus de remolacha
         {
             id: "065",
-            price: " €"
+            price: "6,50€"
         }, // Albondigas al chimichurri
         {
             id: "018",
