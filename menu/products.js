@@ -53,7 +53,7 @@ const menuData = {
 
         {
             id: "007",
-            price: "8 - 12€"
+            price: "8 ~ 12€"
         }, // Gin Tonic
 
         {
