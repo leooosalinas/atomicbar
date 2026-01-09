@@ -173,7 +173,7 @@ var translations = {
 
         /* FOOTER, AUTOR (CATALÀ) */
 
-        menu_author: "fet amb ♥ per Leo(nardo) Salinas amb ajuda d'IA"
+        menu_author: "fet amb ♥ per Leo(nardo) Salinas"
     },
 
     /* ##################### ESPAÑOL ##################### */
@@ -350,7 +350,7 @@ var translations = {
 
         /* FOOTER, AUTOR (ESPAÑOL) */
 
-        menu_author: "hecho con ♥ por Leo(nardo) Salinas con ayuda de IA"
+        menu_author: "hecho con ♥ por Leo(nardo) Salinas"
     },
 
     /* ##################### ENGLISH ##################### */
@@ -527,7 +527,7 @@ var translations = {
 
         /* FOOTER, AUTHOR (ENGLISH) */
 
-        menu_author: "made with ♥ by Leo(nardo) Salinas with AI assistance"
+        menu_author: "made with ♥ by Leo(nardo) Salinas"
     }
 
     // Más idiomas aquí
